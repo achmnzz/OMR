@@ -31,7 +31,7 @@ addpath('Metodos_Auxiliares');
 
     ladoQuadEst = ladoQuadOrig * escala;
 
-    areaMin = (ladoQuadEst * 0.5)^2;
+    areaMin = (ladoQuadEst * 0.5)^2; % elevado ao quadrado porque os marc são detectados como área
     areaMax = (ladoQuadEst * 2.0)^2;
 
     % BINARIZAR E ACHAR COMPONENTES PRETOS GRANDES
@@ -103,10 +103,10 @@ addpath('Metodos_Auxiliares');
     tamQuad = ladoQuadOrig; % 80
 
     % centros dos marcadores na folha gerada
-    dst_TL = [margem + tamQuad/2, margem + tamQuad/2      ];
-    dst_TR = [W0 - margem - tamQuad/2, margem + tamQuad/2      ];
-    dst_BL = [margem + tamQuad/2, H0 - margem - tamQuad/2 ];
-    dst_BR = [W0 - margem - tamQuad/2, H0 - margem - tamQuad/2 ];
+    dst_TL = [margem + tamQuad/2, margem + tamQuad/2];
+    dst_TR = [W0 - margem - tamQuad/2, margem + tamQuad/2];
+    dst_BL = [margem + tamQuad/2, H0 - margem - tamQuad/2];
+    dst_BR = [W0 - margem - tamQuad/2, H0 - margem - tamQuad/2];
 
     fixedPoints = [dst_TL; dst_TR; dst_BR; dst_BL];
 

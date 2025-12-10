@@ -9,7 +9,7 @@ addpath('Metodos_Auxiliares');
 % end
 % os valores são os mesmos: gabaritos.mat
 
-load("C:\Users\Arih_\Desktop\OMR\gabaritos.mat")
+load("gabaritos.mat")
 
 % LER FRs DA PASTA Folhas_Respostas 
 for i = 1:5
