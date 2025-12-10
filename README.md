@@ -3,6 +3,8 @@
 
   Opcionalmente, pode rodar a função `gera_folha_resposta_e_gabarito("X", "X", "folha_resposta.png")` para gerar uma folha resposta em branco para preenchimento manual.
 
+  Na pasta Slides_e_Relatorio, você pode encontrar o relatório e os slides da apresentação.
+
 ### Resposta esperada:
 
   ```xml
@@ -19,7 +21,7 @@
   Prova FR5 não leu corretamente, tente novamente com menos distorções
   ```
 
-## Estrutura de Pastas
+## Estrutura de pastas
 
 ```text
 .
