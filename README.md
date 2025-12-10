@@ -1,9 +1,7 @@
-## Conteudo
-  
-
-
 ## Instruções
   Como já estou enviando com os modelos de gabarito e com as imagens de FR para teste prontas na pasta Folhas_Resposta, para executar basta rodar a função `corrigir_provas`
+
+  Opcionalmente, pode rodar a função `gera_folha_resposta_e_gabarito("X", "X", "folha_resposta.png")` para gerar uma folha resposta em branco para preenchimento manual.
 
 ### Resposta esperada:
 
