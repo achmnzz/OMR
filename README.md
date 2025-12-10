@@ -38,6 +38,12 @@
 │  └─ gabarito_D.png
 │      └─ (imagens dos gabaritos oficiais de cada tipo de prova)
 │
+├─ Slides_e_Relatorio/  <----------------------------------------------------------------------------- Aqui você pode encontrar o relatório e os slides da apresentação
+│  ├─ Reconhecimento Ótico de Marcas (OMR) aplicado à correção de provas em MATLAB.pdf
+│  │    └─ Slides da apresentação
+│  └─ Relatório OMR.pdf
+│       └─ Relatório do trabalho
+|
 ├─ Metodos_Auxiliares/
 │  ├─ conta_circulos_preenchidos.m
 │  │    └─ funções para contar/detectar bolhas preenchidas
